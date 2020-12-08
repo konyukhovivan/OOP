@@ -3,16 +3,19 @@ package iu.konyukhov;
 public class Main {
 
     public static void main(String[] args) {
-	    hello();
+        hello();
     }
 
-    static void hello()
-    {
+    static void hello() {
         System.out.println("Hello!");
     }
 
-    static void welcome()
-    {
+    static void welcome() {
         System.out.println("Welcome!");
+    }
+
+    static double Pi()
+    {
+        return 3.14;
     }
 }
