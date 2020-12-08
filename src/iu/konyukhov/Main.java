@@ -10,4 +10,9 @@ public class Main {
     {
         System.out.println("Hello!");
     }
+
+    static void welcome()
+    {
+        System.out.println("Welcome!");
+    }
 }
